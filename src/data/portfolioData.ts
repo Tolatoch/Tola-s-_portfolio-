@@ -1,4 +1,6 @@
 import iconSnake from '../assets/images/iconSnake.png';
+import webFloodImg from '../assets/images/project_webFlood_1790860476320.jpg';
+import tourismImg from '../assets/images/project_tourism_1790860487894.jpg';
 
 export interface ProjectItem {
   id: string;
