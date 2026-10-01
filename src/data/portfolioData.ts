@@ -1,5 +1,5 @@
 import iconSnake from '../assets/images/iconSnake.png';
-import webFloodImg from '../assets/images/project_webFlood_1790860476320.jpg';
+import webFloodImg from '../assets/images/project_webflood_1790860476320.jpg';
 import tourismImg from '../assets/images/project_tourism_1790860487894.jpg';
 
 export interface ProjectItem {
@@ -159,7 +159,7 @@ Over the past 3 years, I have honed my expertise in modern JavaScript/TypeScript
       category: 'Web App',
       description: 'Interactive disaster-resilience web dashboard tracking river water levels, rainfall telemetry, and flood alert stages across northern Thailand basins.',
       longDescription: 'Developed for flood-prone regions in northern Thailand, Web Flood aggregates sensor feeds, water level telemetry, and meteorological rainfall radar into an intuitive, accessible dashboard. It features live geospatial map markers, threshold-based visual alerts, and historical trend charts.',
-      image:webFloodImg,
+      image: webFloodImg,
       tags: ['React', 'TypeScript', 'Tailwind CSS', 'Leaflet GIS', 'Chart.js', 'REST API'],
       liveUrl: 'https://webflood-demo.vercel.app',
       githubUrl: 'https://github.com/tolatoch/web-flood-monitoring',
@@ -176,7 +176,7 @@ Over the past 3 years, I have honed my expertise in modern JavaScript/TypeScript
       category: 'Landing Page',
       description: 'High-performance responsive travel portal spotlighting eco-tourism trails, community homestays, and lakeside cultural experiences in Phayao.',
       longDescription: 'A modern, dynamic landing platform created to promote sustainable local tourism around Kwan Phayao Lake. Features interactive route planners, sunset viewpoint guides, booking inquiry forms, and bilingual content presentation.',
-      image: '/src/assets/images/project_tourism_1790860487894.jpg',
+      image: tourismImg,
       tags: ['React', 'Tailwind CSS', 'Motion', 'Vite', 'Bilingual Support'],
       liveUrl: 'https://kwanphayao-travel.vercel.app',
       githubUrl: 'https://github.com/tolatoch/kwan-phayao-tourism',
@@ -193,7 +193,7 @@ Over the past 3 years, I have honed my expertise in modern JavaScript/TypeScript
       category: 'UI',
       description: 'Modular, accessible frontend component library with 25+ production-grade elements, dark/light theme tokens, and keyboard accessibility.',
       longDescription: 'A comprehensive design token and component system built from scratch to standardize frontend development across personal and hackathon projects. Adheres to WAI-ARIA authoring practices with zero runtime dependencies.',
-      image: tourismImg,
+      image: webFloodImg, // will also showcase UI in modal
       tags: ['React', 'TypeScript', 'Tailwind CSS', 'WAI-ARIA', 'Storybook'],
       liveUrl: 'https://devpulse-ui.vercel.app',
       githubUrl: 'https://github.com/tolatoch/devpulse-ui-system',
@@ -209,7 +209,7 @@ Over the past 3 years, I have honed my expertise in modern JavaScript/TypeScript
       category: 'Web App',
       description: 'Lightweight web application for University of Phayao students to calculate semester GPAs, track credit requirements, and simulate graduation targets.',
       longDescription: 'Designed to solve real problems for university peers, UniGrade offers instantaneous grade simulations, prerequisite tree visualizations, and offline-capable local storage sync without requiring cloud sign-in.',
-      image: '/src/assets/images/project_tourism_1790860487894.jpg',
+      image: tourismImg,
       tags: ['React', 'TypeScript', 'Tailwind CSS', 'LocalStorage', 'PWA Ready'],
       liveUrl: 'https://unigrade-planner.vercel.app',
       githubUrl: 'https://github.com/tolatoch/unigrade-planner',
