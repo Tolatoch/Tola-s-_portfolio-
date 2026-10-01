@@ -159,7 +159,7 @@ Over the past 3 years, I have honed my expertise in modern JavaScript/TypeScript
       category: 'Web App',
       description: 'Interactive disaster-resilience web dashboard tracking river water levels, rainfall telemetry, and flood alert stages across northern Thailand basins.',
       longDescription: 'Developed for flood-prone regions in northern Thailand, Web Flood aggregates sensor feeds, water level telemetry, and meteorological rainfall radar into an intuitive, accessible dashboard. It features live geospatial map markers, threshold-based visual alerts, and historical trend charts.',
-      image: '/src/assets/images/project_webflood_1790860476320.jpg',
+      image:webFloodImg,
       tags: ['React', 'TypeScript', 'Tailwind CSS', 'Leaflet GIS', 'Chart.js', 'REST API'],
       liveUrl: 'https://webflood-demo.vercel.app',
       githubUrl: 'https://github.com/tolatoch/web-flood-monitoring',
@@ -193,7 +193,7 @@ Over the past 3 years, I have honed my expertise in modern JavaScript/TypeScript
       category: 'UI',
       description: 'Modular, accessible frontend component library with 25+ production-grade elements, dark/light theme tokens, and keyboard accessibility.',
       longDescription: 'A comprehensive design token and component system built from scratch to standardize frontend development across personal and hackathon projects. Adheres to WAI-ARIA authoring practices with zero runtime dependencies.',
-      image: '/src/assets/images/project_webflood_1790860476320.jpg', // will also showcase UI in modal
+      image: tourismImg,
       tags: ['React', 'TypeScript', 'Tailwind CSS', 'WAI-ARIA', 'Storybook'],
       liveUrl: 'https://devpulse-ui.vercel.app',
       githubUrl: 'https://github.com/tolatoch/devpulse-ui-system',
